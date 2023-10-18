@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class UserInput {
-    private Scanner sc= new Scanner(System.in);
+    private final Scanner sc= new Scanner(System.in);
 
     ArrayList<Integer> getTrialNumber (){
         int input = sc.nextInt();
